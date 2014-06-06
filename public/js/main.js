@@ -1,17 +1,9 @@
 var socket = io.connect(location.protocol + '//' + location.host);
 
-setTimeout(function() {
-    socket.emit('test1');
-}, 10);
+socket.emit('test1');
+socket.emit('test1');
+socket.emit('test1');
 
-setTimeout(function() {
-    socket.emit('test2');
-}, 20);
+socket.emit('test2');
+socket.emit('test2');
 
-setTimeout(function() {
-    socket.emit('test1');
-}, 30);
-
-setTimeout(function() {
-    socket.emit('test2');
-}, 40);
