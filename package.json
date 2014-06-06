@@ -1,0 +1,14 @@
+{
+  "name": "socketOn",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A socket.io test",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.4.1",
+    "socket.io": "^1.0.4"
+  },
+  "devDependencies": {},
+  "author": "Erick Ruiz de Chavez <erickrdch@icloud.com>",
+  "license": "MIT"
+}
